@@ -36,7 +36,7 @@
 
     <p v-if="onSale">Super c'est dimanche, vous avez une réduction de {{ discount }}% sur votre commande !</p>
 
-    <p>Total : {{ total }}€</p>
+    <p>Total : {{ total.toFixed(2) }}€</p>
 
     <button @click="emitReservation">Réserver</button>
 </template>
@@ -147,7 +147,7 @@ export default {
                 total = total - (total * (this.discount / 100));
             }
 
-            return total.toFixed(2);
+            return total;
         },
         /**
          * Vérifie si tous les plats du menu ont été sélectionnés
