@@ -19,9 +19,10 @@ npm run dev
    - props
    - emits
    - slot
-- data, methods, computed, beforeMount
+- data, methods, watch, computed, beforeMount
 
 ## Rendu
 Oui aucun design c'est moche ^^  
-![image](https://github.com/axelleP/Vuejs-3-training/assets/3285758/15cda56c-b481-45db-afd2-12d8420ecc1c)
+![image](https://github.com/axelleP/Vuejs-3-training/assets/3285758/ec915e21-88f9-4a56-b103-b454888b745a)
+
 
