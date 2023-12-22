@@ -1,5 +1,5 @@
 <template>
-    <h1>Bienvenue au {{ restaurantName }}</h1>
+    <h1>Bienvenue au restaurant {{ restaurantName }}</h1>
     <br/><br/>
     <i>Il y a actuellement {{ reservationNumber }} réservation(s).</i>
     <br/><br/>
@@ -24,7 +24,7 @@ export default {
     },
     data() {
         return {
-            restaurantName: 'restaurant Mirabelle',
+            restaurantName: 'Mirabelle',
             reservationMode: 'reservationRequired',//reservationRequired ou eveningReservationRequired
             reservationNumber: 0,
             menuNumber: 1
