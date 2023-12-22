@@ -1,7 +1,11 @@
-import './assets/main.css'
-import './assets/restoMenu.css'
+import './assets/main.css';
+import './assets/restoMenu.css';
 
-import { createApp } from 'vue'
-import App from './App.vue'
+import { createApp } from 'vue';
+import App from './App.vue';
 
-createApp(App).mount('#app')
+const app = createApp(App);
+
+app.config.globalProperties.$title = 'Training Vue.js 3';//variable accessible dans tous les composants
+
+app.mount('#app');

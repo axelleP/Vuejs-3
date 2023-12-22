@@ -7,9 +7,15 @@
 </template>
 
 <script>
+import { IdentifiantMixin } from '@/Mixin.vue';
+
 export default {
+    mixins: [IdentifiantMixin],
     props: {
         reservationMode: {type: String, required: true}
     },
+    created() {
+        console.log(this.generateUniqueId());
+    }
 }
 </script>

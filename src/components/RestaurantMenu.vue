@@ -42,7 +42,10 @@
 </template>
 
 <script>
+import { IdentifiantMixin } from '@/Mixin.vue';
+
 export default {
+    mixins: [IdentifiantMixin],
     emits: ['set-reservation-number'],
     props: {
         reservationMode: {type: String, required: true},
@@ -80,6 +83,10 @@ export default {
             selectedMainCourseId: null,
             selectedDessertId: null
         } 
+    },
+    created() {
+        console.log(this.$title);//propriété globale défini dans main.js
+        console.log(this.generateUniqueId());//fonction dans Mixins.vue
     },
     //avant que le composant ne soit rendu sur la page
     beforeMount() {

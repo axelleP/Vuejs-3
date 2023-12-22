@@ -19,7 +19,9 @@ npm run dev
    - props
    - emits
    - slot
-- data, methods, watch, computed, beforeMount
+- data, methods, watch, computed
+- cycles de vie : created, beforeMount
+- variable globale, mixin
 
 ## Rendu
 Oui aucun design c'est moche ^^  
