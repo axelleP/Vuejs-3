@@ -20,7 +20,7 @@ npm run dev
    - emits
    - slot
 - data, methods, watch, computed
-- cycles de vie : created, beforeMount
+- cycles de vie : created, beforeMount, mounted
 - variable globale, mixin
 
 ## Rendu

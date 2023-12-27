@@ -79,6 +79,12 @@ export default {
                 { id: 2, name: 'Banana split', cost: 8},
                 { id: 3, name: 'Salade de fruit', cost: 9}
             ],
+            testWatchArray: [
+                { id: 'starterPart', name: 'Entrée', color: 'blue' }
+            ],
+            testWatchObject: {
+                0: { id: 'starterPart', name: 'Entrée', color: 'blue' }
+            },
             selectedStarterId: null,
             selectedMainCourseId: null,
             selectedDessertId: null
@@ -97,6 +103,10 @@ export default {
 			this.onSale = true;//solde le dimanche
 		}
 	},
+    mounted() {
+        this.testWatchArray[0].color = 'purple';
+        this.testWatchObject[0].color = 'pink';
+    },
     methods: {
         /**
          * Définit quelle partie du menu afficher
@@ -126,14 +136,17 @@ export default {
         isAllMenuCompleted(newValue, oldValue) {
             alert(`Votre menu est complété vous pouvez réserver`);
         },
-
-        //exemple d'une autre syntaxe possible avec handler et deep
-        isAllMenuCompleted2: {
+        //exemple d'une autre syntaxe possible avec handler et utilisation de deep
+        testWatchArray: {
             handler(newValue, oldValue) {
-                alert(`Votre menu est complété vous pouvez réserver`);
+                console.log('Les propriétés de testArray ont changées');
             },
-            //deep à mettre si on veut surveiller une modif. de propriétées imbriquées : 
-            //exs. objectName.arrDishes[0].name = '...', this.$set(this.myArray, 0, 'Nouvel Élément')
+            deep: true//deep à mettre si on veut surveiller une modif. de propriétées imbriquées
+        },
+        testWatchObject: {
+            handler(newValue, oldValue) {
+                console.log('Les propriétés de testWatchObject ont changées');
+            },
             deep: true
         }
     },
