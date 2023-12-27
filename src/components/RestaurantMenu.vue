@@ -125,6 +125,16 @@ export default {
          */
         isAllMenuCompleted(newValue, oldValue) {
             alert(`Votre menu est complété vous pouvez réserver`);
+        },
+
+        //exemple d'une autre syntaxe possible avec handler et deep
+        isAllMenuCompleted2: {
+            handler(newValue, oldValue) {
+                alert(`Votre menu est complété vous pouvez réserver`);
+            },
+            //deep à mettre si on veut surveiller une modif. de propriétées imbriquées : 
+            //exs. objectName.arrDishes[0].name = '...', this.$set(this.myArray, 0, 'Nouvel Élément')
+            deep: true
         }
     },
     computed: {
