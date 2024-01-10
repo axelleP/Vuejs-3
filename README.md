@@ -6,6 +6,9 @@ Exécution de la commande puis on va sur son localhost.
 npm run dev
 ```
 
+## Extension
+- Vetur de Pine Wu : coloration syntaxique, autocomplétion, formatage, ...
+
 ## Notions appliquées
 - Directives : 
    - v-if, v-else-if, v-else
