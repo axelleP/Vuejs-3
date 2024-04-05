@@ -1,5 +1,9 @@
 # <h1 align="center">👨‍💻 Entraînement Vue.js 3 👩‍💻</h1>
 
+## Exemples de code
+- composant parent : [App.vue](src/App.vue)
+- composant enfant  : [RestaurantMenu.vue](src/components/RestaurantMenu.vue)
+
 ## Lancement
 Exécution de la commande puis on va sur son localhost.      
 ```bash
@@ -27,7 +31,7 @@ npm run dev
 - variable globale, mixin
 
 ## Rendu
-Oui aucun design c'est moche ^^  
+Focus sur les fonctionnalités de Vue.js sans design.     
 ![image](https://github.com/axelleP/Vuejs-3-training/assets/3285758/ec915e21-88f9-4a56-b103-b454888b745a)
 
 
