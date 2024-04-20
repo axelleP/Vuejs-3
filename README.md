@@ -30,6 +30,12 @@ npm run dev
 - cycles de vie : created, beforeMount, mounted
 - variable globale, mixin
 
+## Documentation
+[Vue.js 3](https://vuejs.org/guide/introduction.html)     
+ 
+Options API :     
+![image](https://github.com/axelleP/Vuejs-3-training/assets/3285758/bf54e816-dd72-42d4-b5a4-294bc7833810)  
+
 ## Rendu
 Focus sur les fonctionnalités de Vue.js sans design.     
 ![image](https://github.com/axelleP/Vuejs-3-training/assets/3285758/ec915e21-88f9-4a56-b103-b454888b745a)
