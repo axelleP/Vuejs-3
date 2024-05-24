@@ -1,4 +1,4 @@
-# <h1 align="center">👨‍💻 Entraînement Vue.js 3 👩‍💻</h1>
+# <h1 align="center">👨‍💻 Vue.js 3 👩‍💻</h1>
 
 ## Exemples de code
 - composant parent : [App.vue](src/App.vue)
@@ -33,11 +33,7 @@ npm run dev
 ## Documentation
 [Vue.js 3](https://vuejs.org/guide/introduction.html)     
  
-Options API :     
+Format Options API :     
 ![image](https://github.com/axelleP/Vuejs-3-training/assets/3285758/bf54e816-dd72-42d4-b5a4-294bc7833810)  
-
-## Rendu
-Focus sur les fonctionnalités de Vue.js sans design.     
-![image](https://github.com/axelleP/Vuejs-3-training/assets/3285758/ec915e21-88f9-4a56-b103-b454888b745a)
 
 
