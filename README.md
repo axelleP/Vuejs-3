@@ -1,4 +1,4 @@
-# <h1 align="center">👨‍💻 Vue.js 3 👩‍💻</h1>
+# <h1 align="center">👨‍💻 Vue.js 3 👩‍💻</h1> 
 
 ## Exemples de code
 - composant parent : [App.vue](src/App.vue)
